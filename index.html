@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Fabio Piccicuto">
+    <meta name="description" content="Fabio Piccicuto personal portfolio website">
+    <meta name="keywords" content="Fabio Piccicuto portfolio website developer">
+
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/34eba3fe6d.js" crossorigin="anonymous"></script>
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header id="home">
+        <nav id="main-nav" class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="hamburger closed" type="button" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/fabio-piccicuto/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <img src="img/my-foto.jpg" alt="profile pic">
+                <div class="hero-text">
+                    <h1>Fabio Piccicuto</h1>
+                    <h2>Front-End Developer</h2>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <article id="about">
+                <h2>About</h2>
+                <p>
+                    Front End Developer con una forte passione per la creazione di interfacce utente dinamiche e responsive. Ho iniziato il mio percorso di formazione nel campo dello sviluppo web a gennaio 2024, acquisendo competenze in HTML, CSS, JavaScript, TypeScript, Sass, Bootstrap, React e Angular.
+                </p>
+            </article>
+            <article>
+                <h2>My skills</h2>
+                <ul>
+                    <li>
+                        <span>HTML</span>
+                        <div class="bar-container">
+                            <div class="bar html-skills">
+                                100%
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                        <div class="bar-container">
+                            <div class="bar css-skills">
+                                80%
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>JS</span>
+                        <div class="bar-container">
+                            <div class="bar js-skills">
+                                70%
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <!--<article>
+                <h2>Work experience</h2>
+                <div class="test-group">
+                    <h6>2020-2023</h6>
+                    <h3>Deliveroo</h3>
+                    <p><em>Lavoratore autonomo</em></p>
+                </div>
+                <div class="test-group">
+                    <h6>2013-2014</h6>
+                    <h3>Regione Piemonte</h3>
+                    <p><em>Segretario d'ufficio</em></p>
+                </div>
+                <div class="test-group">
+                    <h6>2007-2008</h6>
+                    <h3>Operatore call center</h3>
+                    <p><em>Servizio clienti Vodafone</em></p>
+                </div>
+            </article>-->
+        </aside>
+
+        <section class="portfolio" id="portfolio">
+            <h2>My portfolio</h2>
+            <div class="project-container">
+                <article data-filter="html-css" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>My favourite animals</h3>
+                        <p>
+                            è una card interattiva dedicata al quokka, sviluppata con HTML e CSS. Il progetto mira a migliorare le competenze nella creazione di componenti UI responsive, utilizzando layout flessibili e animazioni CSS per un'esperienza utente ottimale. 
+                        </p>
+                        <a class="button" href="Animal-Card/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="html-css" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>Restaurant Website</h3>
+                        <p>
+                            Progetto front-end che include la creazione di un sito per un ristorante, sviluppato con HTML e CSS per un design elegante e responsive, ottimizzato per vari dispositivi.
+                        </p><br>
+                        <a class="button" href="Restaurant/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="js" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>Pizza Generator</h3>
+                        <p>
+                            Progetto interattivo che permette di creare pizze con ingredienti casuali, impasti diversi e aggiunte extra, sviluppato con HTML, CSS e JavaScript per un'esperienza dinamica e divertente.
+                        </p><br>
+                        <a class="button" href="Pizza-Generator/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="js" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>Meme generator</h3>
+                        <p>
+                            Progetto interattivo che consente di creare meme utilizzando 4 immagini preimpostate e personalizzare il testo. Gli utenti possono generare e scaricare i meme creati. Sviluppato con HTML, CSS e JavaScript.
+                        </p>
+                        <a class="button" href="Meme generator/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="js" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>Rock paper scissors</h3>
+                        <p>
+                            Un gioco interattivo creato con HTML, CSS e JavaScript, in cui l'utente gioca contro il computer che genera una scelta casuale. L'app tiene traccia del punteggio per offrire un'esperienza coinvolgente e competitiva.
+                        </p><br>
+                        <a class="button" href="Rock paper scissors/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="js" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <span class="badge">NEW!</span>
+                        <h3>Store locator</h3>
+                        <p>
+                            Un'applicazione interattiva che mostra una mappa di Google con vari store di informatica ed elettronica in Italia. Realizzata con HTML, CSS e JavaScript, consente agli utenti di individuare facilmente i negozi vicini, migliorando l'accessibilità e la praticità nella ricerca.
+                        </p>
+                        <a class="button" href="store-locator/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="react" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="placeholder">
+                    </div>
+                    <div class="text-container">
+                        <h3>TODO list - Work in</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fuga itaque illum unde, quaerat sequi rerum ad aliquid accusamus voluptate in tenetur, officiis, magni ut iusto. Et quae quasi cumque?
+                        </p>
+                        <a class="button" href="todo-app/build/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+                <article data-filter="react" class="project">
+                    <div>
+                        <img src="img/code.jpg" alt="project">
+                    </div>
+                    <div class="text-container">
+                        
+                        <h3>Weather app - Work in progress</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta cumque accusantium nulla alias. Iusto ducimus facilis beatae veniam voluptatum. Nesciunt, dolor harum nobis rerum temporibus ab cupiditate non quisquam quam.
+                        </p>
+                        <a class="button" href="../weather-app/build/index.html" target="_blank"><span>Dettagli</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--<section class="contact" id="contact">
+        <form action="/">
+            <h2>Contact me</h2>
+            <div class="form-field">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Your name...">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email...">
+            </div>
+            <div class="form-field">
+                <label for="note">Note</label>
+                <textarea name="note" id="note" rows="6" placeholder="Note...">
+                </textarea>
+            </div>
+            <div class="form-field">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>-->
+
+    <Section class="contact" id="contact">
+        <article class="certification">
+            <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                <img class="certifi" src="img-cert/ITS-HTML-CSS.png"  alt="">
+            </a>
+            <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                <img class="certifi" src="img-cert/ITS-JS.png" alt="">
+            </a>
+            <a href="https://www.musaformazione.it/" target="_blank">
+                <img class="certifi" src="img-cert/Front-End.png" alt="">
+            </a>
+            <a href="https://www.musaformazione.it/" target="_blank">
+                <img class="certifi" src="img-cert/Angular2+.png" alt="">
+            </a>
+        </article>
+    </Section>
+   
+
+    <footer>
+        <hgroup>
+            <h3>Fabio Piccicuto</h3>
+            <h5>Front-End web Developer</h5>
+        </hgroup>
+    <div>
+            <h4>You can find me on</h4>
+        <ul>
+            <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>

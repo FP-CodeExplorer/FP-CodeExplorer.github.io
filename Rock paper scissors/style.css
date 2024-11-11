@@ -1,0 +1,87 @@
+:root {
+    --blue: rgb(22, 143, 176);
+    --dark-blue: rgb(11, 109, 136);
+  }
+  
+  body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  main {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 30px 10px;
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: space-around
+  }
+  
+  .score-container > p {
+    background-color: #e4e4e4;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .score-container > p > span {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .btn-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn-container > button {
+    background-color: var(--blue);
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-container > button:hover {
+    background-color: var(--dark-blue);
+  }
+  
+  .details {
+    text-align: center;
+  }
+  
+  .result {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+  }
+  
+  .win {
+    background-color: green;
+  }
+  
+  .lose {
+    background-color: red;
+  }
+  
+  .draw {
+    background-color: #a7a7a7;
+  }

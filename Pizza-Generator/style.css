@@ -1,0 +1,54 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #90cde7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    /*border: solid 3px blue;*/
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+}
+.btn-red:hover {
+    background-color: rgb(180, 2, 2);
+}
+.btn-blue {
+    background-color: blue;
+}
+.btn-blue:hover {
+    background-color: rgb(2, 2, 180);
+}
+.btn-green {
+    background-color: rgb(1, 180, 1);
+}
+.btn-green:hover {
+    background-color: rgb(5, 128, 5);
+}
+.btn-orange {
+    background-color: orange;
+}
+.btn-orange:hover {
+    background-color: rgb(177, 116, 3);
+}
